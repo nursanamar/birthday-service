@@ -15,7 +15,7 @@
 - MongoDB
 
 ### Installation
-- set `.env` file 
+- set `.env` file accordingly
 - run `yarn install`
 - run `yarn migrate`
 - run `yarn build`

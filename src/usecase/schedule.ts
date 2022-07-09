@@ -38,7 +38,7 @@ export default class Schedule {
                     timeZone: user.country
                 }).split(":")
                 
-                if(parseInt(hour) > parseInt("17")){
+                if(parseInt(hour) >= parseInt("09")){
                     let message = `Hey,${user.firstName} ${user.lastName} it's your birthday`
                     await this.messenger.sendMessage(message).then(() => {
                         if(user.id){
